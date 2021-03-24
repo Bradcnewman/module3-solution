@@ -1,0 +1,98 @@
+body{
+  font-size: 16px;
+  color: #fff;
+  background-color: #a3e4e4;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+.header-nav {
+  background-color: #911c3f;
+  border-radius: 0;
+  height: 4em;
+}
+
+.navbar-brand {
+  padding-top: 10px;
+  position: relative;
+  left: 0px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  text-align: right;
+  color: #ffbc02;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #222;
+  padding-top: 10px;
+  font-size: 35px; 
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-toggle, .navbar-header .icon-bar {/* inside Menu Box */
+  border: 1px solid #0c9e24;
+ }
+.navbar-header button.navbar-toggle {/* Menu box page position*/
+  clear: both;
+  margin-top: -60px;
+}
+/* END HEADER */
+#nav-list {
+  margin-top:  0px;
+}
+#nav-list a {
+  color:#3c1c95;
+  
+}
+.nav-item {
+  list-style-type: none; /* Remove bullets */
+  padding: 3px; 
+  margin: 0; /* Remove margins */
+    background-color: #e2f0ca;
+    border-radius: 0;
+    border: 1px solid black;
+    height: 2em;
+    margin-right: 30px; 
+}
+
+#title {
+  font-size: 2em;
+  font-weight: bold;
+  color: #140f11;
+}
+#chk-box-ttl {
+  font-size: 1.2em;
+  em;
+}
+#chk-box {
+  font-size: 1.5em;
+  display: block;
+  margin: 0 20px;
+  padding: 10px;
+  border: 2px solid #fff;
+  background-color: #f6b319;
+  color: #951c49;
+}
+/********** Medium devices only **********/
+@media (min-width: 992px)  {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+ 
+ 
+  /* End Header */
+
+}
